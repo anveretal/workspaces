@@ -3,7 +3,7 @@ all: renumber next
 renumber:
 	./.scripts/$@.sh
 
-next:
+new:
 	./.scripts/$@.sh
 
-.PHONY: all renumber next
+.PHONY: all renumber new
